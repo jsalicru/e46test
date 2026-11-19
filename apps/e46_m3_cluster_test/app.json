@@ -97,7 +97,7 @@
     {
       "name": "MAIN",
       "kind": "canvas",
-      "title": "E36 Cluster Test",
+      "title": "E46 M3 Cluster Test",
       "buttons": [
         [
           "BTN_SETTINGS",
@@ -111,7 +111,7 @@
       "key": "hudLayout",
       "label": "Theme (when not by drive mode)",
       "type": "choice",
-      "default": "off",
+      "default": "e46",
       "options": [
         [
           "off",
@@ -133,7 +133,7 @@
       "key": "inComfort",
       "label": "In Comfort",
       "type": "choice",
-      "default": "off",
+      "default": "e46",
       "options": [
         [
           "off",
@@ -149,7 +149,7 @@
       "key": "inSport",
       "label": "In Sport",
       "type": "choice",
-      "default": "off",
+      "default": "e46",
       "options": [
         [
           "off",
@@ -165,7 +165,7 @@
       "key": "inEco",
       "label": "In Eco Pro",
       "type": "choice",
-      "default": "off",
+      "default": "e46",
       "options": [
         [
           "off",
@@ -1046,7 +1046,7 @@
       "status": "/run/waze-on-cluster/status.json",
       "control": "/dev/shm/waze-on-cluster/ctl.sock"
     },
-    "_comment": "Standalone E46 M3 test for 2022 G80 S58. Defaults to Off; E46 layout disabled until renderer and signal validation are complete.",
+    "_comment": "Dedicated standalone E46 M3 test repository. E46 layout enabled by default; park vehicle for testing. Not hardware validated.",
     "dme": {
       "comment": "Disable inherited E36-app DME polling candidates for the E46 beta until the G80's supported data sources have been verified on-car.",
       "boost": [],
