@@ -2,7 +2,7 @@
   "id": "e46_m3_cluster_test",
   "title": "E46 M3 Cluster Test",
   "description": "Standalone experimental E46-inspired cluster for 2022 G80 M3 S58. Parked testing only; original BMW instrumentation remains safety-critical.",
-  "version": "0.18.20",
+  "version": "0.18.21",
   "vendor": "custom",
   "loggingId": "OAE4",
   "iconGlyph": "E46",
