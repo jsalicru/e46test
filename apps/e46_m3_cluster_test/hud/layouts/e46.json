@@ -30,7 +30,7 @@
           "sweep": 260,
           "minor": 36,
           "major": 4,
-          "redline": 9000
+          "redline": 7200
         },
         {
           "cx": 160,
@@ -521,6 +521,34 @@
       "text": "230",
       "font": "e_sm",
       "color": "fg",
+      "align": "center"
+    },
+    {
+      "id": "strip_range",
+      "type": "text",
+      "class": "content",
+      "z": 4,
+      "x": 480,
+      "y": 640,
+      "w": 280,
+      "h": 40,
+      "text": "{{range}} {{u:distLc}}",
+      "font": "e_lcd",
+      "color": "lcd",
+      "align": "center"
+    },
+    {
+      "id": "strip_temp",
+      "type": "text",
+      "class": "content",
+      "z": 4,
+      "x": 820,
+      "y": 640,
+      "w": 280,
+      "h": 40,
+      "text": "{{ambient}} {{u:temp}}",
+      "font": "e_lcd",
+      "color": "lcd",
       "align": "center"
     },
     {
