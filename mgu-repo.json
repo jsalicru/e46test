@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "apps": {
-    "path": "apps/e46_m3_cluster_test",
+    "path": "apps/*",
     "manifest": "app.json",
     "mguHmi": [
       "ID7"
